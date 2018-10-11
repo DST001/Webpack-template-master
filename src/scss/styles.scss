@@ -1,0 +1,38 @@
+$fontColor: #0091aa;
+$colorHeading: #be4a14;
+#content  // div with id: content
+{
+    color: $fontColor;
+}
+
+h2
+{
+    color: $colorHeading;
+}
+
+h1{
+    @extend h2;
+}
+#veardi
+{
+    float: left;
+}
+#ounces
+{
+    float: left;
+    margin-left:5px; 
+}
+#gram
+{
+    float: left;
+    margin-left: 5px; 
+}
+p
+{
+    float: left;
+    margin-left:10px;
+    margin-bottom:5px;
+    margin-top:1px; 
+    margin-right:-5px;
+    padding-right:-5px; 
+}
